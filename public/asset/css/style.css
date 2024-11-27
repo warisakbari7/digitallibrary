@@ -1,0 +1,380 @@
+                html,
+                body {
+                    height: 100%;
+                }
+                
+                @font-face {
+                    font-family: An_bold;
+                    src: url('../fonts/AntipastoPro-Bold_trial.ttf');
+                }
+                
+                .an_bold {
+                    font-family: An_bold !important;
+                }
+                
+                @font-face {
+                    font-family: An_Dm_bold;
+                    src: url(../fonts/AntipastoPro-DemiBold_trial.ttf);
+                }
+                
+                .An_Dm_bold {
+                    font-family: An_Dm_bold !important;
+                }
+                
+                @font-face {
+                    font-family: An_Ex_bold;
+                    src: url('../fonts/AntipastoPro-ExtraBold_trial.ttf');
+                }
+                
+                @font-face {
+                    font-family: An_Ex_light;
+                    src: url(../fonts/AntipastoPro-Extralight_trial.ttf);
+                }
+                
+                @font-face {
+                    font-family: An_light;
+                    src: url(../fonts/AntipastoPro-Light_trial.ttf);
+                }
+                
+                .An_light {
+                    font-family: An_light !important;
+                }
+                
+                @font-face {
+                    font-family: An_medium;
+                    src: url(../fonts/AntipastoPro-Medium_trial.ttf);
+                }
+                
+                @font-face {
+                    font-family: An_thin;
+                    src: url(../fonts/AntipastoPro-Thin_trial\ 2.ttf);
+                }
+                
+                @font-face {
+                    font-family: An_trial;
+                    src: url(../fonts/AntipastoPro_trial.ttf);
+                }
+                
+                .An_trial {
+                    font-family: An_trial !important;
+                }
+                
+                .bg--one {
+                    background: #cc6600 !important;
+                }
+                
+                .text--one {
+                    color: #cc6600 !important;
+                }
+                
+                .bg--two {
+                    background: #006699 !important;
+                }
+                
+                .bg--two--hover:hover {
+                    background: #006699 !important;
+                    color: white !important;
+                }
+                
+                .text--two {
+                    color: #006699 !important;
+                }
+                
+                .bg--three {
+                    background: #999999 !important;
+                }
+                
+                .text--three {
+                    color: #999999 !important;
+                }
+                
+                .bg--four {
+                    background: #cccccc !important;
+                }
+                
+                .text--four {
+                    color: #cccccc !important;
+                }
+                
+                .bg--five {
+                    background: #000000 !important;
+                }
+                
+                .text--five {
+                    color: #000000 !important;
+                }
+                
+                .bg--six {
+                    background: #666666 !important;
+                }
+                
+                .text--six {
+                    color: #666666 !important;
+                }
+                
+                .bg--seven {
+                    background: #333333 !important;
+                }
+                
+                .text--seven {
+                    color: #333333 !important;
+                }
+                
+                .bg--eight {
+                    background-color: #e6e6e6 !important;
+                }
+                
+                .bg--opcity {
+                    background-color: #000000c2 !important;
+                }
+                
+                .red:hover {
+                    color: red !important;
+                    cursor: pointer;
+                }
+                
+                .orange:hover {
+                    color: orange !important;
+                    cursor: pointer;
+                }
+                
+                .yellow:hover {
+                    color: yellow !important;
+                    cursor: pointer;
+                }
+                
+                .yellowgreen:hover {
+                    color: yellowgreen !important;
+                    cursor: pointer;
+                }
+                
+                .green:hover {
+                    color: green !important;
+                    cursor: pointer;
+                }
+                
+                .star--red {
+                    color: red !important;
+                }
+                
+                .star--green {
+                    color: green !important;
+                }
+                
+                .star--orange {
+                    color: orange !important;
+                }
+                
+                .star--yellow {
+                    color: yellow !important;
+                }
+                
+                .star--yellowgreen {
+                    color: yellowgreen !important;
+                }
+                
+                .bg {
+                    background-image: linear-gradient( to right, #cccccc 50%, transparent 80%), url(/images/library.jpg);
+                    background-size: cover;
+                    position: center center;
+                    background-repeat: no-repeat;
+                    border-radius: 25px;
+                }
+                
+                .bg--map {
+                    background-size: cover;
+                    position: center center;
+                    background-repeat: no-repeat;
+                    border-radius: 10px;
+                    border: 3px solid white;
+                    box-shadow: 0px 0px 20px 1px #000000;
+                }
+                
+                .product-img-hover {
+                    height: 250px !important;
+                    width: 170px !important;
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    right: 0px;
+                    bottom: 0px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: rgba(73, 73, 73, 0.6);
+                    opacity: 0;
+                    transition: all 0.2s ease-in-out;
+                    -moz-transition: all 0.2s ease-in-out;
+                    -webkit-transition: all 0.2s ease-in-out;
+                    -o-transition: all 0.2s ease-in-out;
+                    -webkit-transform: scale(0.8);
+                    transform: scale(0.8);
+                }
+                
+                .product-img-hover li a {
+                    display: inline-block;
+                    color: rgb(182, 0, 0);
+                    width: 40px;
+                    height: 40px;
+                    font-size: 18px;
+                    line-height: 40px;
+                    border-radius: 100%;
+                    text-align: center;
+                    -webkit-transform: translateY(0);
+                    transform: translateY(0);
+                    -webkit-backface-visibility: hidden;
+                    backface-visibility: hidden;
+                    transition: all 0.3s ease-in-out;
+                    -moz-transition: all 0.3s ease-in-out;
+                    -webkit-transition: all 0.3s ease-in-out;
+                    -o-transition: all 0.3s ease-in-out;
+                }
+                
+                .product-img-hover:hover li a:hover {
+                    -webkit-transform: translateY(4px);
+                    transform: translateY(4px);
+                }
+                
+                .product-item {
+                    height: 250px !important;
+                    width: 170px !important;
+                }
+                
+                .product-item:hover .product-img-hover {
+                    opacity: 2;
+                    border-radius: 10px;
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                    top: 0px;
+                    left: 0px;
+                    right: 0px;
+                    bottom: 0px;
+                    height: 250px
+                }
+                
+                .btn--outline--primary {
+                    border: 1.5px solid #cc6600 !important;
+                    color: #cc6600 !important;
+                    border-radius: 8px !important;
+                    background: white !important;
+                }
+                
+                .btn--outline--primary:hover {
+                    color: white !important;
+                    border-radius: 8px !important;
+                    background-color: #cc6600 !important;
+                }
+                
+                .btn--outline--secondary {
+                    border: 1.5px solid #006699 !important;
+                    color: #006699 !important;
+                    border-radius: 8px !important;
+                    background: white !important;
+                }
+                
+                .btn--outline--secondary:hover {
+                    color: white !important;
+                    border-radius: 8px !important;
+                    background-color: #006699 !important;
+                }
+                
+                .border--orange {
+                    border-top: 1px solid #cc6600 !important;
+                    padding-left: 90px;
+                    padding-right: 90px;
+                }
+                
+                .bg-hover:hover {
+                    background-color: #cccccc !important;
+                    /* cursor: pointer; */
+                }
+                
+                .team-img-hover {
+                    position: absolute;
+                    top: 10px;
+                    border-radius: 200px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: rgba(255, 255, 255, 0.329);
+                    opacity: 0;
+                    transition: all 0.2s ease-in-out;
+                    -moz-transition: all 0.2s ease-in-out;
+                    -webkit-transition: all 0.2s ease-in-out;
+                    -o-transition: all 0.2s ease-in-out;
+                    -webkit-transform: scale(0.8);
+                    transform: scale(0.8);
+                }
+                
+                .team-item:hover .team-img-hover {
+                    opacity: 1;
+                    -webkit-transform: scale(1);
+                    transform: scale(0.5);
+                    top: 0px;
+                    left: 0px;
+                    right: 0px;
+                    bottom: 0px;
+                }
+                
+                .category-item:hover {
+                    background-color: #069 !important;
+                    color: white !important;
+                    text-decoration: none;
+                }
+                
+                .related-article:hover {
+                    opacity: 0.5;
+                }
+                
+                li.nav-item:hover {
+                    color: #000 !important;
+                }
+                
+                .profile-img {
+                    width: 180px !important;
+                    height: 180px !important;
+                    position: absolute;
+                    top: 0px;
+                    left: 30px;
+                    right: 0px;
+                    bottom: 0px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: rgba(73, 73, 73, 0.6);
+                    opacity: 0;
+                    transition: all 0.2s ease-in-out;
+                    -moz-transition: all 0.2s ease-in-out;
+                    -webkit-transition: all 0.2s ease-in-out;
+                    -o-transition: all 0.2s ease-in-out;
+                    -webkit-transform: scale(0.8);
+                    transform: scale(0.8);
+                }
+                
+                .profile-item:hover .profile-img {
+                    opacity: 2;
+                    border-radius: 10px;
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                    top: 0px;
+                    left: 30px;
+                    right: 0px;
+                    bottom: 0px;
+                    height: 250px
+                }
+                
+                .contact-btn:hover {
+                    background-color: #666666;
+                }
+                
+                .hover:hover {
+                    opacity: 0.8;
+                }
+                
+                .nav-item {
+                    color: #cc6600 !important;
+                }
+                
+                .nav-link:active {
+                    color: #006699 !important;
+                }
